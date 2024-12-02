@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "esnext",                            // Menyusun ke standar ES terbaru
+      "lib": ["dom", "esnext"],                      // Mendukung penggunaan API DOM dan ES terbaru
+      "allowJs": true,                               // Izinkan JavaScript untuk dijadikan bagian dari proyek
+      "skipLibCheck": true,                          // Mengabaikan pengecekan tipe pada dependensi eksternal
+      "esModuleInterop": true,                       // Memungkinkan impor modul CommonJS di TypeScript
+      "strict": true,                                // Mengaktifkan pemeriksaan tipe ketat (strict)
+      "module": "esnext",                            // Menggunakan modul ECMAScript terbaru
+      "moduleResolution": "node",                    // Resolusi modul ala Node.js
+      "resolveJsonModule": true,                     // Mengizinkan impor file JSON
+      "jsx": "react-jsx",                            // Menggunakan sintaks JSX standar React 17 dan seterusnya
+      "noImplicitAny": true,                         // Mencegah penggunaan tipe `any`
+      "downlevelIteration": true,                    // Memungkinkan iterasi pada tipe yang lebih lama seperti `for...of`
+      "skipDefaultLibCheck": true                    // Mengabaikan pengecekan default libraries
+    },
+    "include": [
+      "src"                                          // Memasukkan folder src untuk kompilasi
+    ],
+    "exclude": [
+      "node_modules"                                 // Mengecualikan node_modules dari kompilasi
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "canisters": {
+      "voucher_canister": {
+        "type": "motoko",
+        "source": ["src/canisters/voucher_canister.mo"]
+      },
+      "consultation_canister": {
+        "type": "motoko",
+        "source": ["src/canisters/consultation_canister.mo"]
+      }
+    },
+    "dfx_version": "0.12.1",
+    "network": "local",
+    "version": 1
+  }
+  
